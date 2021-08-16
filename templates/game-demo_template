@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: game-configmap-cloudtruth
+data:
+  game.properties: |
+    enemies={{enemies}}
+    lives={{lives}}
+    enemies.cheat={{enemies.cheat}}
+    enemies.cheat.level={{enemies.cheat.level}}
+    secret.code.passphrase={{secret.code.passphrase}}
+    secret.code.allowed={{secret.code.allowed}}
+    secret.code.lives={{secret.code.lives}}
+  ui.properties: |
+    color.good={{color.good}}
+    color.bad={{color.bad}}
+    allow.textmode={{allow.textmode}}

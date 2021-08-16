@@ -1,0 +1,8 @@
+"CHARACTER": "{{CHARACTER}}",
+"lower": "{{lower}}",
+"secret": "{{secret}}",
+"service.app.cpu": "{{service.app.cpu}}",
+"service.app.memory": "{{service.app.memory}}",
+"service.demo.timeout": "{{service.demo.timeout}}",
+"node.name": {{{node.name}}},
+"TF_VAR_resource_tags": {{{TF_VAR_resource_tags}}}
