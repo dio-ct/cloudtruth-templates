@@ -1,5 +1,4 @@
 "CHARACTER": "{{CHARACTER}}",
-"lower": "{{lower}}",
 "secret": "{{secret}}",
 "service.app.cpu": "{{service.app.cpu}}",
 "service.app.memory": "{{service.app.memory}}",
