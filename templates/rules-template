@@ -1,0 +1,7 @@
+{
+"boolean" : "{{boolean}}"
+"integer": "{{integer}}"
+"regex_numbers" : "{{regex_numbers}}"
+"regex_string": "{{regex_string}}"
+"string": "{{string}}"
+}
