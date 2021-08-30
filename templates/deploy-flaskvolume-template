@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-app
+  #namespace: default
+  namespace: demokubetruth
+  labels:
+    app: flask-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-app
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec:
+      containers:
+      - name: flaskdemovolume
+        image: flaskdemovolume # local minikube eval $(minikube docker-env)       
+        imagePullPolicy: Never # local minikube pull
+        volumeMounts:
+        - name: config-volume
+          mountPath: /etc/config
+      volumes:
+        - name: config-volume       
+          configMap:
+            name: flask-map
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-service
+  namespace: demokubetruth
+  labels:
+    app: flask-app
+spec:
+  selector:
+    app: flask-app
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
