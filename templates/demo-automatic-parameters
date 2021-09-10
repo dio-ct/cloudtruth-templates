@@ -1,0 +1,5 @@
+Project: {{cloudtruth.project}}
+Environment: {{cloudtruth.environment}}
+
+Refence to the demo-template:
+{{cloudtruth.template.demo-template}}
