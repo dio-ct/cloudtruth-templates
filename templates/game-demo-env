@@ -1,0 +1,7 @@
+enemies={{enemies}}
+lives={{lives}}
+enemies.cheat={{enemies.cheat}}
+enemies.cheat.level={{enemies.cheat.level}}
+secret.code.passphrase={{secret.code.passphrase}}
+secret.code.allowed={{secret.code.allowed}}
+secret.code.lives={{secret.code.lives}}
