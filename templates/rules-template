@@ -1,6 +1,6 @@
 {
-"boolean" : "{{boolean}}"
-"integer": "{{integer}}"
-"regex_string": "{{regex_string}}"
-"string": "{{string}}"
+"boolean" : "{{Demo_boolean_rule}}"
+"integer": "{{Demo_integer_rule}}"
+"regex_string": "{{Demo_regex_string_rule}}"
+"string": "{{Demo_string_rule}}"
 }
