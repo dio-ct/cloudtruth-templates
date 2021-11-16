@@ -1,0 +1,4 @@
+ami                     = "{{TF_VAR_ami}}"
+availability_zone_names = {{{TF_VAR_availability_zone_names}}}
+instance_type           = "{{TF_VAR_instance_type}}"
+resource_tags           = {{{TF_VAR_resource_tags}}}
